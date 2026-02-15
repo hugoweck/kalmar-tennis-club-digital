@@ -1,5 +1,12 @@
 # Welcome to your Lovable project
 
+## Publicering på GitHub Pages
+
+Gå till repo **Settings → Pages**.
+Under **Build and deployment** väljer du **Source: GitHub Actions** (inte **Deploy from a branch**).
+Säkerställ att workflow **Deploy to GitHub Pages** körs på `main` efter push.
+Om sidan är vit och Console visar 404 på `/src/main.tsx` publiceras fel källa (branch/root).
+
 ## Project info
 
 **URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
